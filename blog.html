@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font_awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Blog</title>
+</head>
+<body>
+    <!-- <header class="header-area">
+        <div class="header-logo">
+            <img src="image/logo.png" alt="logo">
+        </div>
+        <div class="menu-bar">
+            <nav class="menu">
+                <a href="index.html">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="#">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+        
+        <div class="profile">
+            <i class="fa-regular fa-user"></i>
+        </div>
+        <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="heart">
+            <i class="fa-regular fa-heart"></i>
+        </div>
+        <div class="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+    </header> -->
+
+    <header class="header-area">
+        <div class="header-logo">
+            <img src="image/logo.png" alt="logo">
+        </div>
+        <div class="menu-bar">
+            <input type="checkbox" name="check" id="check">
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <label for="check" class="close-menu"><i class="fa-solid fa-xmark"></i></label>
+                </ul>    
+            </nav>
+            <label for="check" class="open-menu"><i class="fa-solid fa-bars"></i></label>
+        </div>
+        
+        <div class="icon-nav">
+            <div class="n-icons">
+                <i class="fa-regular fa-user"></i>
+            </div>
+            <div class="n-icons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="n-icons">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="n-icons">
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </div>
+    </header>
+    <section class="shop-hero">
+        <div class="hero_image"></div>
+        <div class="hero_heading">
+            <img src="image/Meubel House_Logos-05 (1).png" alt="">
+            <h1>Blog</h1>
+            <p>Home > <span id="shop">Blog</span></p>
+        </div>
+    </section>
+    <section class="blog-area">
+        <div class="blog">
+            <div class="blog-post">
+                <div class="post">
+                    <div class="blog-img">
+                        <img src="image/blog-post-1.png" alt="">
+                    </div>
+                    <div class="img-details">
+                        <div class="info">
+                            <p><i class="fa-solid fa-user-tie"></i> Admin</p>
+                        </div>
+                        <div class="info">
+                            <p><i class="fa-solid fa-calendar"></i> 14 Oct 2022</p>
+                            
+                        </div>
+                        <div class="info">
+                            <p><i class="fa-solid fa-tag"></i> Wood<p>  
+                        </div>
+                    </div>
+                    <div class="blog-post-text">
+                        <h2>Going all-in with millennial design</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum.</p>
+                    </div>
+                    <div class="read-more">
+                        <button>Read More</button>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="blog-img">
+                        <img src="image/blog-post-2.png" alt="">
+                    </div>
+                    <div class="img-details">
+                        <div class="info">
+                            <p><i class="fa-solid fa-user-tie"></i>Admin</p>
+                            
+                        </div>
+                        <div class="info">
+                            <p><i class="fa-solid fa-calendar"></i>14 Oct 2022</p>
+                            
+                        </div>
+                        <div class="info">
+                            <p><i class="fa-solid fa-tag"></i>Handmade</p>
+                            
+                        </div>
+                    </div>
+                    <div class="blog-post-text">
+                        <h2>Exploring new ways of decorating</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum.</p>
+                    </div>
+                    <div class="read-more">
+                        <button>Read More</button>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="blog-img">
+                        <img src="image/blog-post-3.png" alt="">
+                    </div>
+                    <div class="img-details">
+                        <div class="info">
+                            <p><i class="fa-solid fa-user-tie"></i>Admin</p>
+                            
+                        </div>
+                        <div class="info">
+                            <p><i class="fa-solid fa-calendar"></i>14 Oct 2022</p>
+                            
+                        </div>
+                        <div class="info">
+                            <p><i class="fa-solid fa-tag"></i>Wood</p>
+                            
+                        </div>
+                    </div>
+                    <div class="blog-post-text">
+                        <h2>Handmade pieces that took time to make</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum.</p>
+                    </div>
+                    <div class="read-more">
+                        <button>Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-side">
+                <div class="search-bar">
+                    <form action="">
+                        <input type="text" name="search" id="search">
+                        <div class="search-glass">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </form>
+                </div>
+                <div class="categories">
+                    <h2>Categories</h2>
+                    <div class="cate-item">
+                        <div class="category-name">
+                            <p>Crafts</p>
+                            <p>Design</p>
+                            <p>Handmade</p>
+                            <p>Interior</p>
+                            <p>Wood</p>
+                        </div>
+                        <div class="cate-number">
+                            <p>2</p>
+                            <p>8</p>
+                            <p>7</p>
+                            <p>1</p>
+                            <p>6</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="recent-post">
+                    <h2>Recent Posts</h2>
+                    <div class="re-post">
+                        <div class="re-post-img">
+                            <img src="image/re-post1.png" alt="">
+                        </div>
+                        <div class="re-post-text">
+                            <h4>Going all-in with millennial design</h4>
+                            <p>03 Aug 2022</p>
+                        </div>
+                    </div>
+                    <div class="re-post">
+                        <div class="re-post-img">
+                            <img src="image/re-post2.png" alt="">
+                        </div>
+                        <div class="re-post-text">
+                            <h4>Exploring new ways of decorating</h4>
+                            <p>03 Aug 2022</p>
+                        </div>
+                    </div>
+                    <div class="re-post">
+                        <div class="re-post-img">
+                            <img src="image/re-post3.png" alt="">
+                        </div>
+                        <div class="re-post-text">
+                            <h4>Handmade pieces that took time to make</h4>
+                            <p>03 Aug 2022</p>
+                        </div>
+                    </div>
+                    <div class="re-post">
+                        <div class="re-post-img">
+                            <img src="image/re-post4.png" alt="">
+                        </div>
+                        <div class="re-post-text">
+                            <h4>Modern home in Milan</h4>
+                            <p>03 Aug 2022</p>
+                        </div>
+                    </div>
+                    <div class="re-post">
+                        <div class="re-post-img">
+                            <img src="image/re-post5.png" alt="">
+                        </div>
+                        <div class="re-post-text">
+                            <h4>Colorful office redesign</h4>
+                            <p>03 Aug 2022</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pages">
+        <div class="page-number">
+            <div class="page-rec active">
+                <p>1</p>
+            </div>
+            <div class="page-rec">
+                <p>2</p>
+            </div>
+            <div class="page-rec">
+                <p>3</p>
+            </div>
+            <div class="page-next">
+                <p>Next</p>
+            </div>
+        </div>
+    </section>
+    <section class="feature-area">
+        <div class="features">
+            <div class="shop-feat">
+                <div class="feat-icon">
+                    <i class="fa-solid fa-trophy"></i>
+                </div>
+                <div class="feat-name">
+                    <h3>High Quality</h3>
+                    <p>Crafted from top materials</p>
+                </div>
+            </div>
+            <div class="shop-feat">
+                <div class="feat-icon">
+                    <i class="fa-solid fa-award"></i>
+                </div>
+                <div class="feat-name">
+                    <h3>Warranty Protection</h3>
+                    <p>Over 2 years</p>
+                </div>
+            </div>
+            <div class="shop-feat">
+                <div class="feat-icon">
+                    <i class="fa-solid fa-truck-fast"></i>
+                </div>
+                <div class="feat-name">
+                    <h3>Free Shipping</h3>
+                    <p>Order over 150 $</p>
+                </div>
+            </div>
+            <div class="shop-feat">
+                <div class="feat-icon">
+                    <i class="fa-solid fa-headset"></i>
+                </div>
+                <div class="feat-name">
+                    <h3>24 / 7 Support</h3>
+                    <p>Dedicated support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="footer-area">
+        <div class="footer">
+            <div class="company-details">
+                <div class="company-name">
+                    <h2>Funiro.</h2>
+                </div>
+                <div class="address">
+                    <p>400 University Drive Suite 200 Coral <br>Gables,
+                    <br> FL 33134 USA</p>
+                </div>
+            </div>
+            <div class="links">
+                <div class="link">
+                    <p>Links</p>
+                </div>
+                <div class="link">
+                    <a href="#">Home</a>
+                </div>
+                <div class="link">
+                    <a href="#">Shop</a>
+                </div>
+                <div class="link">
+                    <a href="#">About</a>
+                </div>
+                <div class="link">
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            <div class="help-section">
+                <div class="help">
+                    <p>Help</p>
+                </div>
+                <div class="help">
+                    <a href="#">Payment Option</a>
+                </div>
+                <div class="help">
+                    <a href="#">Returns</a>
+                </div>
+                <div class="help">
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+            <div class="newsletter-section">
+                <div class="newsletter">
+                    <p>Newsletter</p>
+                </div>
+                <input type="email" id="email" name="email" placeholder="Enter your mail address">
+                <button class="subscribe"><a href="#">SUBSCRIBE</a></button>
+            </div>
+        </div>
+        <div class="sub-footer">
+            <hr id="sub-footerline">
+            <p>2023 furino. All rights reserved</p>
+        </div>
+    </section>
+</body>
+</html>

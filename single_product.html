@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- font_awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     <!-- font family -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+ 
+     <link rel="stylesheet" href="style.css">
+ 
+    <title>Single Product</title>
+</head>
+<body>
+    <!-- <header class="header-area">
+        <div class="header-logo">
+            <img src="image/logo.png" alt="logo">
+        </div>
+        <div class="menu-bar">
+            <nav class="menu">
+                <a href="index.html">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="blog">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+        
+        <div class="profile">
+            <i class="fa-regular fa-user"></i>
+        </div>
+        <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="heart">
+            <i class="fa-regular fa-heart">
+        </div>
+        <div class="cart">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+    </header> -->
+    
+    <header class="header-area">
+        <div class="header-logo">
+            <img src="image/logo.png" alt="logo">
+        </div>
+        <div class="menu-bar">
+            <input type="checkbox" name="check" id="check">
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <label for="check" class="close-menu"><i class="fa-solid fa-xmark"></i></label>
+                </ul>    
+            </nav>
+            <label for="check" class="open-menu"><i class="fa-solid fa-bars"></i></label>
+        </div>
+        
+        <div class="icon-nav">
+            <div class="n-icons">
+                <i class="fa-regular fa-user"></i>
+            </div>
+            <div class="n-icons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="n-icons">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="n-icons">
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </div>
+    </header>
+    <section class="single-product-path">
+        <div class="product-path">
+            <div class="tag">
+                <p>Home</p>
+            </div>
+            <div class="icon-tag">
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="tag">
+                <p>Shop</p>
+            </div>
+            <div class="icon-tag">
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="line-tag">
+
+            </div>
+            <div class="product-name">
+                <p>Asgaard sofa</p>
+            </div>
+        </div>
+    </section>
+    <section class="product-sec">
+        <div class="products">
+            <div class="product-s-img">
+                <div class="s-sofa">
+                    <img src="image/s_sofa1.png" alt="">
+                </div>
+                <div class="s-sofa">
+                    <img src="image/s-sofa2.png" alt="">
+                </div>
+                <div class="s-sofa">
+                    <img src="image/s-sofa3.png" alt="">
+                </div>
+                <div class="s-sofa">
+                    <img src="image/s-sofa4.png" alt="">
+                </div>
+            </div>
+            <div class="product-l-img">
+                <img src="image/l-sofa.png" alt="">
+            </div>
+            <div class="single-product-details">
+                <div class="s-p-name">
+                    <h2>Asgaard sofa</h2>
+                </div>
+                <div class="s-p-price">
+                    <p>Rs. 250,000.00</p>
+                </div>
+                <div class="review">
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="line-tag"></div>
+                    <div class="review-text">
+                        <p>5 Customer Review</p>
+                    </div>
+                </div>
+                <div class="s-p-details">
+                    <p>Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.
+                    </p>
+                </div>
+                <div class="size-header">
+                    <p>Size</p>
+                </div>
+                <div class="sizes">
+                    <div class="size"><p>L</p></div>
+                    <div class="size1"><p>XL</p></div>
+                    <div class="size1"><p>XS</p></div>
+                </div>
+                <div class="color-header">
+                    <p>Color</p>
+                </div>
+                <div class="colors">
+                    <div class="color-circle"></div>
+                    <div class="color-circle1"></div>
+                    <div class="color-circle2"></div>
+                </div>
+                <div class="boxes">
+                    <div class="quantity-box">
+                        <p>- &nbsp  1  &nbsp +</p>
+                    </div>
+                    <div class="add-cart-box">
+                        <p>Add to Cart</p>
+                    </div>
+                    <div class="compare-box">
+                        <p>+ Compare</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="sku">
+                    <p>SKU  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp: SS001</p>
+                </div>
+                <div class="s-p-category">
+                    <p>Category &nbsp &nbsp  : Sofas</p>
+                </div>
+                <div class="s-p-tags">
+                    <p>Tags   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp: Sofa, Chair, Home, Shop</p>
+                </div>
+                <div class="s-p-share">
+                    <p>Share  &nbsp &nbsp
+                        &nbsp &nbsp &nbsp   : 
+                        <div class="media-icon">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="s-p-explain">
+        <div class="explanation">
+            <div class="heading-active">
+                <p>Description</p>
+            </div>
+            <div class="heading-inact">
+                <p>Additional Information</p>
+            </div>
+            <div class="heading-inact">
+                <p>Reviews[5]</p>
+            </div>
+        </div>
+        <div class="description-text">
+            <p>Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and takes the show on the road.<br><br>
+            Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.</p>
+        </div>
+        <div class="sofa-img">
+            <div class="s-img">
+                <img src="image/sofa1.png" alt="">
+            </div>
+            <div class="s-img">
+                <img src="image/sofa2.png" alt="">
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="product-category-area">
+        <div class="product-heading">
+            <h2>Related Products</h2>
+        </div>
+        <div class="product-cards">
+            <div class="card">
+                <div class="img-section">
+                    <img src="image/image 1.png" alt="">
+                </div>
+                <div class="product-description">
+                    <h2>Syltherine</h2>
+                    <p>Stylish cafe chair</p>
+                    <h3>Rp 2.500.000   <span id="original-price">Rp 3.500.000</span></h3>
+                </div>
+                <div class="offer">
+                    <p>-30%</p>
+                </div>
+                <div class="overlay">
+                    <div class="add-cart">
+                      <p>Add to Cart</p>  
+                    </div>
+                    <div class="icons">
+                       <div class="share"> 
+                            <i class="fa-solid fa-share-nodes"></i>
+                            <p>Share</p>
+                        </div>
+                       <div class="compare">
+                            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                            <p>Compare</p>
+                       </div>
+                       <div class="heart-icon">
+                            <i class="fa-regular fa-heart"></i>
+                            <p>Like</p>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-section">
+                    <img src="image/image 2.png" alt="">
+                </div>
+                <div class="product-description">
+                    <h2>Leviosa</h2>
+                    <p>Stylish cafe chair</p>
+                    <h3>Rp 2.500.000 </h3>
+                </div>
+                <div class="overlay">
+                    <div class="add-cart">
+                      <p>Add to Cart</p>  
+                    </div>
+                    <div class="icons">
+                       <div class="share"> 
+                            <i class="fa-solid fa-share-nodes"></i>
+                            <p>Share</p>
+                        </div>
+                       <div class="compare">
+                            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                            <p>Compare</p>
+                       </div>
+                       <div class="heart-icon">
+                            <i class="fa-regular fa-heart"></i>
+                            <p>Like</p>
+                       </div>
+                    </div>
+                </div>
+                <!-- <div class="offer">
+                    <p>-30%</p>
+                </div> -->
+            </div>
+            <div class="card">
+                <div class="img-section">
+                    <img src="image/image 3.png" alt="">
+                </div>
+                <div class="product-description">
+                    <h2>Lolito</h2>
+                    <p>Luxury big sofa</p>
+                    <h3>Rp 7.000.000 <span id="original-price">Rp 14.000.000</span></h3>
+                </div>
+                <div class="offer">
+                    <p>-50%</p>
+                </div>
+                <div class="overlay">
+                    <div class="add-cart">
+                      <p>Add to Cart</p>  
+                    </div>
+                    <div class="icons">
+                       <div class="share"> 
+                            <i class="fa-solid fa-share-nodes"></i>
+                            <p>Share</p>
+                        </div>
+                       <div class="compare">
+                            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                            <p>Compare</p>
+                       </div>
+                       <div class="heart-icon">
+                            <i class="fa-regular fa-heart"></i>
+                            <p>Like</p>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-section">
+                    <img src="image/Images.png" alt="">
+                </div>
+                <div class="product-description">
+                    <h2>Respira</h2>
+                    <p>Outdoor bar table and stool</p>
+                    <h3>Rp 500.000</h3>
+                </div>
+                <div class="offer-new">
+                    <p>New</p>
+                </div>
+                <div class="overlay">
+                    <div class="add-cart">
+                      <p>Add to Cart</p>  
+                    </div>
+                    <div class="icons">
+                       <div class="share"> 
+                            <i class="fa-solid fa-share-nodes"></i>
+                            <p>Share</p>
+                        </div>
+                       <div class="compare">
+                            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                            <p>Compare</p>
+                       </div>
+                       <div class="heart-icon">
+                            <i class="fa-regular fa-heart"></i>
+                            <p>Like</p>
+                       </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <button class="show_more single">
+            <a href="#">Show More</a>
+        </button>
+    </section>
+    <br><br>
+    <hr>
+    <section class="footer-area">
+        <div class="footer">
+            <div class="company-details">
+                <div class="company-name">
+                    <h2>Funiro.</h2>
+                </div>
+                <div class="address">
+                    <p>400 University Drive Suite 200 Coral <br>Gables,
+                    <br> FL 33134 USA</p>
+                </div>
+            </div>
+            <div class="links">
+                <div class="link">
+                    <p>Links</p>
+                </div>
+                <div class="link">
+                    <a href="#">Home</a>
+                </div>
+                <div class="link">
+                    <a href="#">Shop</a>
+                </div>
+                <div class="link">
+                    <a href="#">About</a>
+                </div>
+                <div class="link">
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            <div class="help-section">
+                <div class="help">
+                    <p>Help</p>
+                </div>
+                <div class="help">
+                    <a href="#">Payment Option</a>
+                </div>
+                <div class="help">
+                    <a href="#">Returns</a>
+                </div>
+                <div class="help">
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+            <div class="newsletter-section">
+                <div class="newsletter">
+                    <p>Newsletter</p>
+                </div>
+                <input type="email" id="email" name="email" placeholder="Enter your mail address">
+                <button class="subscribe"><a href="#">SUBSCRIBE</a></button>
+            </div>
+        </div>
+        <div class="sub-footer">
+            <hr id="sub-footerline">
+            <p>2023 furino. All rights reserved</p>
+        </div>
+    </section>
+</body>
+</html>
